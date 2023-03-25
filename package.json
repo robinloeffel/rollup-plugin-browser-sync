@@ -1,7 +1,8 @@
 {
   "name": "@rbnlffl/rollup-plugin-browser-sync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "description": "easily integrate browser-sync into your rollup development flow 🌊",
   "repository": "https://github.com/robinloeffel/rollup-plugin-browser-sync.git",
