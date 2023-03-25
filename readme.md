@@ -1,23 +1,23 @@
-# `rollup-plugin-browser-sync`
+# @rbnlffl/rollup-plugin-browser-sync
 
-[![latest version on npm](https://img.shields.io/npm/v/rollup-plugin-browser-sync)](https://www.npmjs.com/package/rollup-plugin-browser-sync)
-[![npm downloads a month](https://img.shields.io/npm/dm/rollup-plugin-browser-sync)](https://www.npmjs.com/package/rollup-plugin-browser-sync)
-[![browser-sync dep](https://img.shields.io/npm/dependency-version/rollup-plugin-browser-sync/browser-sync)](https://github.com/BrowserSync/browser-sync)
-[![required node version](https://img.shields.io/node/v/rollup-plugin-browser-sync)](https://github.com/nodejs/Release)
-[![package license](https://img.shields.io/npm/l/rollup-plugin-browser-sync)](license)
+[![latest version on npm](https://img.shields.io/npm/v/@rbnlffl/rollup-plugin-browser-sync)](https://www.npmjs.com/package/@rbnlffl/rollup-plugin-browser-sync)
+[![npm downloads a month](https://img.shields.io/npm/dm/@rbnlffl/rollup-plugin-browser-sync)](https://www.npmjs.com/package/@rbnlffl/rollup-plugin-browser-sync)
+[![browser-sync dep](https://img.shields.io/npm/dependency-version/@rbnlffl/rollup-plugin-browser-sync/browser-sync)](https://github.com/BrowserSync/browser-sync)
+[![required node version](https://img.shields.io/node/v/@rbnlffl/rollup-plugin-browser-sync)](https://github.com/nodejs/Release)
+[![package license](https://img.shields.io/npm/l/@rbnlffl/rollup-plugin-browser-sync)](license)
 
 > easily integrate [`browser-sync`](https://github.com/BrowserSync/browser-sync) into your [`rollup`](https://github.com/rollup/rollup) development flow 🌊
 
 ## install
 
 ```bash
-yarn install --dev rollup-plugin-browser-sync
+yarn install --dev @rbnlffl/rollup-plugin-browser-sync
 ```
 
 ## use
 
 ```typescript
-import browserSync from "rollup-plugin-browser-sync";
+import browserSync from "@rbnlffl/rollup-plugin-browser-sync";
 
 export default {
   /* rollup config */
