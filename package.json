@@ -1,0 +1,43 @@
+{
+  "name": "rollup-plugin-browser-sync",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "type": "module",
+  "description": "easily integrate browser-sync into your rollup development flow 🌊",
+  "repository": "https://github.com/robinloeffel/rollup-plugin-browser-sync.git",
+  "homepage": "https://github.com/robinloeffel/rollup-plugin-browser-sync",
+  "bugs": "https://github.com/robinloeffel/rollup-plugin-browser-sync/issues",
+  "author": "Robin Löffel <hi@robinloeffel.ch> (https://robinloeffel.ch)",
+  "license": "MIT",
+  "keywords": [
+    "rollup-plugin",
+    "browser-sync"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "source",
+    "dist"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.29.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/types": "^17.4.4",
+    "@types/browser-sync": "^2.27.0",
+    "@types/eslint": "^8.21.3",
+    "eslint": "^8.36.0",
+    "eslint-config-sweet": "^11.0.2",
+    "husky": "^8.0.3",
+    "rollup": "^3.20.2",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "rollup --config test/rollup.config.js --watch",
+    "prepublishOnly": "yarn build"
+  }
+}
