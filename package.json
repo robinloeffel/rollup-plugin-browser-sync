@@ -1,6 +1,6 @@
 {
   "name": "@rbnlffl/rollup-plugin-browser-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -25,13 +25,13 @@
     "dist"
   ],
   "dependencies": {
+    "@types/browser-sync": "^2.27.0",
     "browser-sync": "^2.29.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.0",
     "@commitlint/config-conventional": "^17.4.4",
     "@commitlint/types": "^17.4.4",
-    "@types/browser-sync": "^2.27.0",
     "@types/eslint": "^8.21.3",
     "eslint": "^8.36.0",
     "eslint-config-sweet": "^11.0.2",
